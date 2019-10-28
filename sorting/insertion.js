@@ -15,7 +15,7 @@ function insertionSort(array) {
   return array;
 }
 
-const test = [9, 8, 7, 6, 5];
+const test = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
 
 const result = insertionSort(test);
 console.log({ result });
